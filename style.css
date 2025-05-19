@@ -1,3 +1,40 @@
-body{
+body {
     text-align: center;
+    font-family: 'Georgia', serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.poema {
+    display: inline-block;
+    background: #fff;
+    padding: 30px 40px;
+    margin: 30px auto 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.poema p {
+    font-size: 1.2em;
+    line-height: 1.7;
+    color: #444;
+    margin: 0;
+}
+
+.like {
+    margin: 20px 0;
+    width: 60px;
+    height: auto;
+}
+
+.video {
+    margin: 30px 0 40px 0;
 }
